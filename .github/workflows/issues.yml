@@ -5,4 +5,4 @@ jobs:
     runs-on: ubuntu-lates
     steps:
       - name: Log Event Info
-        runs: echo "{{ $toJson(github.event)}}"
+        run: echo "{{ $toJson(github.event)}}"
