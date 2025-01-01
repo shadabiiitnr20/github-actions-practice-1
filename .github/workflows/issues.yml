@@ -2,7 +2,7 @@ name: Issues
 on: issues
 jobs:
   output-info:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     steps:
       - name: Log Event Info
         run: echo "{{ $toJson(github.event)}}"
